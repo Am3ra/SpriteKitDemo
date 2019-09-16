@@ -48,7 +48,9 @@ the scene variable is created to modify the anchorpoint, witch, in this case has
 Then, the image is added to the scene, and finally presented.
 
 
-## Step 2:
+## Step 2: Use atlases to improve performance
+
+Swift is designed to use atlases, and as such, they are incredibly easy to implement. Simply create a folder that ends in .atlas, and insert the images you want to use.
 
 
 ```swift
