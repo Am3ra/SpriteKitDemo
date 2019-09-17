@@ -1,4 +1,4 @@
-# Watch Tutorial on YouTube here
+# Watch Tutorial on YouTube
 https://youtu.be/aG-uy2Hsd3o
 
 # SpriteKitDemo
