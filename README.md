@@ -1,5 +1,8 @@
+
 # Watch Tutorial on YouTube
 https://youtu.be/aG-uy2Hsd3o
+
+
 
 # SpriteKitDemo
 Demo of spritekit for class.
@@ -55,9 +58,23 @@ Then, the image is added to the scene, and finally presented.
 
 Swift is designed to use atlases, and as such, they are incredibly easy to implement. Simply create a folder that ends in .atlas, and insert the images you want to use.
 
+https://help.apple.com/xcode/mac/current/#/dev10510b1f7
+
+
+
 
 ```swift
 
+import SpriteKit
 
+class GameScene: SKScene {
+  
+  private var bear = SKSpriteNode()
+  private var bearWalkingFrames: [SKTexture] = []
+  
+  override func didMove(to view: SKView) {
+    backgroundColor = .blue
+  }
+}
 
 ```
